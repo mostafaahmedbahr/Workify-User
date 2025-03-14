@@ -6,17 +6,28 @@ class AppStyles
 {
 
 
-  static const textStyle10W400Gray = TextStyle(
-      fontWeight: FontWeight.w400,
-      fontSize: 10,
-      color: AppColors.greyColor
+  static const textStyle40W600White = TextStyle(
+      fontWeight: FontWeight.w600,
+      fontSize: 40,
+      color: AppColors.whiteColor
 
   );
+
+
+  static const textStyle16W500White = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 16,
+      color: AppColors.whiteColor
+
+  );
+
+
+
 
   static const textStyle10W400Green = TextStyle(
       fontWeight: FontWeight.w400,
       fontSize: 10,
-      color: AppColors.mainColor
+      color: AppColors.mainGreenColor
 
   );
 
@@ -75,7 +86,7 @@ class AppStyles
   static const textStyle16W600Green = TextStyle(
       fontWeight: FontWeight.w600,
       fontSize: 16,
-      color: AppColors.mainColor
+      color: AppColors.mainGreenColor
   );
 
 

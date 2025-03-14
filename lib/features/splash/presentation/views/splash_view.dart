@@ -1,8 +1,6 @@
 
-
-
-
 import '../../../../main_importants.dart';
+import '../../../start/presentation/views/start_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -32,11 +30,14 @@ class SplashViewState extends State<SplashView> with SingleTickerProviderStateMi
 
     _controller.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
-        // Navigator.of(context).pushReplacement(
-        //   MaterialPageRoute(builder: (context) =>
-        //   CacheTokenManger.userToken!=null ? const LayoutView():
-        //   const OnBoardingView()), // Your next screen
-        // );
+        AppNav.customNavigator(context: context,
+            screen: const StartView(),
+        );
+        // // Navigator.of(context).pushReplacement(
+        // //   MaterialPageRoute(builder: (context) =>
+        // //   CacheTokenManger.userToken!=null ? const LayoutView():
+        // //   const OnBoardingView()), // Your next screen
+        // // );
       }
     });
   }
@@ -49,15 +50,13 @@ class SplashViewState extends State<SplashView> with SingleTickerProviderStateMi
 
   @override
   Widget build(BuildContext context) {
-    // debugPrint(CacheTokenManger.userToken);
-    // debugPrint("SplashView");
+    debugPrint(CacheTokenManger.userToken);
+    debugPrint("SplashView");
     return SafeArea(
       child: Scaffold(
-        backgroundColor: AppColors.mainColor,
         body: ScaleTransition(
           scale: _animation,
           child: Center(
-
             child: Image.asset(PngImages.logo), // Your logo asset
           ),
         ),

@@ -55,7 +55,7 @@ class CustomTextFormField extends StatelessWidget {
       validator: validator,
       decoration: InputDecoration(
         labelText: labelText,
-        labelStyle: const TextStyle(color: AppColors.mainColor), // Consistent label style
+        labelStyle: const TextStyle(color: AppColors.mainGreenColor), // Consistent label style
         contentPadding: const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
         prefixIcon: prefixIcon,
         prefix: prefix,

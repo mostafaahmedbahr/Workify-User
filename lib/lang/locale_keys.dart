@@ -1,4 +1,13 @@
 abstract class LocaleKeys {
+  static const startText = "startText";
+  static const joinUs = "joinUs";
+  static const  login = 'login';
+  static const  register = 'register';
+
+
+
+
+
 
   static const skip = "skip";
   static const appName = "appName";
@@ -94,8 +103,6 @@ abstract class LocaleKeys {
   static const  seeAll = 'seeAll';
   static const  loginTermsMsg1 = 'loginTermsMsg1';
   static const  loginTermsMsg2 = 'loginTermsMsg2';
-  static const  login = 'login';
-  static const  register = 'register';
   static const  or = 'or';
   static const  loginLater = 'loginLater';
   static const  loginMsg1 = 'loginMsg1';
@@ -169,12 +176,6 @@ abstract class LocaleKeys {
   static const phoneValidate = "phoneValidate";
   static const phoneValidate2 = "phoneValidate2";
   static const phoneValidate3 = "phoneValidate3";
-
-
-
-
-
-
   static const goBackExit = "goBackExit";
   static const allProducts = "allProducts";
   static const sellerData = "sellerData";

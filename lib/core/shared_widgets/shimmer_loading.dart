@@ -17,7 +17,7 @@ class SimmerLoading extends StatelessWidget {
         width: width ?? double.infinity,
         height: height?? double.infinity,
         decoration: BoxDecoration(
-          color: AppColors.mainColor,
+          color: AppColors.mainGreenColor,
           border: Border.all(
             color: AppColors.greyColor.withOpacity(0.5),
           ),
