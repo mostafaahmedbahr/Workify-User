@@ -16,5 +16,6 @@ class AppColors
   static const  Color blueColor =   Color(0xff60A0FF);
   static const  Color blackColor =   Colors.black87;
   static const  Color whiteColor =   Colors.white;
+  static const  Color offWhiteColor =   Color(0xffF3F3F4);
 
 }

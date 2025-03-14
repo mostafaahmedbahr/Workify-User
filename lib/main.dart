@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // title: LocaleKeys.appName.tr(),
       theme: ThemeData(
-        scaffoldBackgroundColor: AppColors.whiteColor,
+        scaffoldBackgroundColor: AppColors.offWhiteColor,
         fontFamily: 'Cairo',
         primarySwatch: Colors.blue,
       ),
