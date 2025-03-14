@@ -21,6 +21,11 @@ class EnLang
     "nameValidate" : "Please Enter Your Name",
     "forgetPassword" : "Forgot Password",
     "haveAnAccount" : "Don’t have an account?",
+    "profilePhoto" : "Profile Photo",
+    "change" : "Change",
+    "delete" : "Delete",
+    "phone" : "Phone",
+    "country" : "Country",
 
 
 

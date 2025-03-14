@@ -10,11 +10,11 @@ class AppColors
   static const  Color greyColor1 =   Color(0xffB0AEAE);
   static const  Color greyColor2 =   Color(0xffDCDCDC);
   static const  Color greyColor3 =   Color(0xff8E8E93);
-
+  static const  Color redColor =   Color(0xffC32B43);
 
 
   static const  Color grey2Color =   Color(0xffF8F8F8);
-  static const  Color redColor =   Color(0xffC21919);
+
   static const  Color yellowColor =   Color(0xffFAB043);
   static const  Color buttonColor =   Color(0xff0D4B74);
   static const  Color darkMainColor =   Color(0xff1F2937);

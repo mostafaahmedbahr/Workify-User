@@ -2,8 +2,8 @@ import 'package:easy_localization/easy_localization.dart';
 
 import '../../../../../main_importants.dart';
 
-class RegisterButton extends StatelessWidget {
-  const RegisterButton({super.key});
+class StartRegisterButton extends StatelessWidget {
+  const StartRegisterButton({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,7 @@
 
 import 'package:easy_localization/easy_localization.dart';
 import '../../../../../main_importants.dart';
+import '../../../../register/presentation/views/register_view.dart';
 
 class CreateNewAccountLine extends StatelessWidget {
   const CreateNewAccountLine({super.key});
@@ -16,7 +17,9 @@ class CreateNewAccountLine extends StatelessWidget {
         ),
         const CustomSizedBox(width: 5,),
     TextButton(
-        onPressed: (){},
+        onPressed: (){
+          AppNav.customNavigator(context: context, screen: RegisterView());
+        },
     style: TextButton.styleFrom(
     foregroundColor: AppColors.mainGreenColor,
     ),

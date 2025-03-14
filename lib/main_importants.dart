@@ -23,6 +23,8 @@
  export 'package:workify_user/core/shared_widgets/custom_text.dart';
  export 'package:workify_user/core/utils/app_styles/app_styles.dart';
  export 'package:workify_user/core/shared_widgets/custom_button.dart';
+ export 'package:workify_user/core/utils/app_validator/app_validator.dart';
+
 
 
 
