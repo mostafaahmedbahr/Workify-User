@@ -57,6 +57,7 @@ class SplashViewState extends State<SplashView> with SingleTickerProviderStateMi
         body: ScaleTransition(
           scale: _animation,
           child: Center(
+            //
             child: Image.asset(PngImages.logo), // Your logo asset
           ),
         ),
