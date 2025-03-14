@@ -19,6 +19,7 @@ abstract class LocaleKeys {
   static const phoneValidate3 = "phoneValidate3";
   static const forgetPassword = "forgetPassword";
   static const haveAnAccount = "haveAnAccount";
+  static const alreadyHaveAnAccount = "alreadyHaveAnAccount";
   static const profilePhoto = "profilePhoto";
   static const change = "change";
   static const delete = "delete";
@@ -26,7 +27,10 @@ abstract class LocaleKeys {
   static const  email = 'email';
   static const  country = 'country';
   static const  city = 'city';
+  static const  confirmPassword = 'confirmPassword';
 
+
+  /////////////////
 
 
 
@@ -133,7 +137,7 @@ abstract class LocaleKeys {
   static const  loginMsg1 = 'loginMsg1';
   static const  loginMsg2 = 'loginMsg2';
   static const  register2 = 'register2';
-  static const  confirmPassword = 'confirmPassword';
+
   static const  name = 'name';
   static const  confirmEmail = 'confirmEmail';
   static const  weHaveSentTo = 'weHaveSentTo';

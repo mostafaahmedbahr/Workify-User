@@ -22,7 +22,7 @@ class CustomDropdown<T> extends StatelessWidget {
     required this.hint,
     required this.itemDisplayBuilder,  // Custom item display function
     this.height = 56.0,
-    this.borderRadius = 10.0,
+    this.borderRadius = 16.0,
     this.padding = const EdgeInsets.symmetric(vertical: 15, horizontal: 15),
     this.backgroundColor = AppColors.whiteColor,  // Default background color
     this.borderColor = const Color.fromRGBO(208, 208, 208, 1), // Default border color

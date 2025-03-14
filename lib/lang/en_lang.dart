@@ -10,6 +10,7 @@ class EnLang
     "loginDesText" : "Find your job now Find your job now Find your job now Find your job now ",
     "userName" : "User Name",
     "password" : "Password",
+    "confirmPassword" : "Confirm Password",
     "phoneValidate" : "Please enter a phone number",
     "phoneValidate2" : "phone number must be at least 11 numbers long",
     "phoneValidate3": "phone number must be start with 01",
@@ -26,6 +27,8 @@ class EnLang
     "delete" : "Delete",
     "phone" : "Phone",
     "country" : "Country",
+    "city" : "City",
+    "alreadyHaveAnAccount" : "Already have an account?",
 
 
 

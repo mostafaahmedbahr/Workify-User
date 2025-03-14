@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:workify_user/core/shared_widgets/custom_drop_down.dart';
-import 'package:workify_user/lang/locale_keys.dart';
+ import 'package:workify_user/core/shared_widgets/custom_drop_down.dart';
+
+import '../../../../../main_importants.dart';
 
 class RegisterCountryCityForm extends StatelessWidget {
   const RegisterCountryCityForm({super.key});
@@ -10,15 +10,28 @@ class RegisterCountryCityForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        const CustomSizedBox(height: 20,),
         CustomDropdown<String>(
-          value: "A", // Default selected value
-          items: ["A", "B", "C"], // List of items
+          value: null,
+          items: const ["A", "B", "C"],
           onChanged: (v) {
-            print('Selected: $v'); // Handle selection
+
           },
-          hint: LocaleKeys.country.tr(), // Hint text
+          hint: LocaleKeys.country.tr(),
           itemDisplayBuilder: (String value) {
-            return value; // Return the item as a String
+            return value;
+          },
+        ),
+        const CustomSizedBox(height: 20,),
+        CustomDropdown<String>(
+          value: null,
+          items: const ["A", "B", "C"],
+          onChanged: (v) {
+
+          },
+          hint: LocaleKeys.city.tr(),
+          itemDisplayBuilder: (String value) {
+            return value;
           },
         ),
       ],

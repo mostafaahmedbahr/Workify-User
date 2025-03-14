@@ -10,6 +10,7 @@ class RegisterNameEmailPhoneForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        const CustomSizedBox(height: 28,),
         CustomTextFormField(
           keyboardType: TextInputType.text,
           hintText: LocaleKeys.userName.tr(),

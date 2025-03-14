@@ -54,6 +54,7 @@ dependencies:
   page_transition: ^2.1.0
   numberpicker: ^2.1.2
   bottom_picker: ^2.11.2
+  file_picker: ^8.0.0+1
 
 
 
