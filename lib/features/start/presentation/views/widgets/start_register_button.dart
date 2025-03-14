@@ -1,4 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:workify_user/features/register/presentation/views/register_view.dart';
 
 import '../../../../../main_importants.dart';
 
@@ -16,7 +17,11 @@ class StartRegisterButton extends StatelessWidget {
         borderColor: AppColors.whiteColor,
         btnText: Text(LocaleKeys.register.tr(),
           style: AppStyles.textStyle16W500White,),
-        onPressed: (){},
+        onPressed: (){
+          AppNav.customNavigator(context: context,
+            screen: const RegisterView(),
+          );
+        },
       ),
     );
   }
