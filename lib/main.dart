@@ -2,6 +2,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
+import 'core/utils/app_services/remote_services/service_locator.dart';
+import 'features/login/data/repos/login_repos_imple.dart';
+import 'features/login/presentation/view_model/login_cubit.dart';
 import 'features/splash/presentation/views/splash_view.dart';
 import 'main_importants.dart';
 
@@ -12,7 +15,7 @@ void main() async {
   debugPrint("Retrieved token: $token");
   await CacheHelper.init();
   await EasyLocalization.ensureInitialized();
-  // setup();
+  setup();
   Bloc.observer = SimpleBlocObserver();
   runApp(EasyLocalization(
       startLocale: const Locale('en',""),
@@ -33,26 +36,31 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: context.locale,
-      debugShowCheckedModeBanner: false,
-      // title: LocaleKeys.appName.tr(),
-      theme: ThemeData(
-        scaffoldBackgroundColor: AppColors.offWhiteColor,
-        fontFamily: 'Cairo',
-        primarySwatch: Colors.blue,
-      ),
-      home:   const SplashView() ,
-      builder: (context, child) => ResponsiveBreakpoints.builder(
-        child: child!,
-        breakpoints: [
-          const Breakpoint(start: 0, end: 450, name: MOBILE),
-          const Breakpoint(start: 451, end: 800, name: TABLET),
-          const Breakpoint(start: 801, end: 1920, name: DESKTOP),
-          const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
-        ],
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context) => LoginCubit (getIt.get<LoginRepoImpl>()) ),
+      ],
+      child: MaterialApp(
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: context.locale,
+        debugShowCheckedModeBanner: false,
+        // title: LocaleKeys.appName.tr(),
+        theme: ThemeData(
+          scaffoldBackgroundColor: AppColors.offWhiteColor,
+          fontFamily: 'Cairo',
+          primarySwatch: Colors.blue,
+        ),
+        home:   const SplashView() ,
+        builder: (context, child) => ResponsiveBreakpoints.builder(
+          child: child!,
+          breakpoints: [
+            const Breakpoint(start: 0, end: 450, name: MOBILE),
+            const Breakpoint(start: 451, end: 800, name: TABLET),
+            const Breakpoint(start: 801, end: 1920, name: DESKTOP),
+            const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
+          ],
+        ),
       ),
     );
   }

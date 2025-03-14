@@ -1,9 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:workify_user/features/login/presentation/views/login_view.dart';
 
 import '../../../../../main_importants.dart';
 
-class LoginButton extends StatelessWidget {
-  const LoginButton({super.key});
+class StartLoginButton extends StatelessWidget {
+  const StartLoginButton({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,11 @@ class LoginButton extends StatelessWidget {
       child: CustomButton(
         btnText: Text(LocaleKeys.login.tr(),
           style: AppStyles.textStyle16W500White,),
-        onPressed: (){},
+        onPressed: (){
+          AppNav.customNavigator(context: context,
+              screen: const LoginView(),
+          );
+        },
       ),
     );
   }

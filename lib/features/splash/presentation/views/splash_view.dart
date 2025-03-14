@@ -52,13 +52,11 @@ class SplashViewState extends State<SplashView> with SingleTickerProviderStateMi
   Widget build(BuildContext context) {
     debugPrint(CacheTokenManger.userToken);
     debugPrint("SplashView");
-    return SafeArea(
-      child: Scaffold(
-        body: ScaleTransition(
-          scale: _animation,
-          child: Center(
-            child: Image.asset(PngImages.logo), // Your logo asset
-          ),
+    return Scaffold(
+      body: ScaleTransition(
+        scale: _animation,
+        child: Center(
+          child: Image.asset(PngImages.logo), // Your logo asset
         ),
       ),
     );

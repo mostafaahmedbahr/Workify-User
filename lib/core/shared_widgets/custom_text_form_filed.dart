@@ -38,9 +38,9 @@ class CustomTextFormField extends StatelessWidget {
     this.validator,
     this.readOnly,
     this.fillColor = AppColors.whiteColor, // Default fill color
-    this.borderColor = const Color.fromRGBO(208, 208, 208, 1), // Default border color
+    this.borderColor = AppColors.greyColor2,
     this.hintColor = const Color.fromRGBO(150, 150, 150, 1), // Default hint color
-    this.radius = 10.0, // Default radius
+    this.radius = 16.0, // Default radius
   }) : super(key: key);
 
   @override
@@ -63,19 +63,19 @@ class CustomTextFormField extends StatelessWidget {
         filled: true,
         fillColor: fillColor,
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(radius ?? 10),
+          borderRadius: BorderRadius.circular(radius ?? 16),
           borderSide: BorderSide(
             color: borderColor ?? const Color.fromRGBO(208, 208, 208, 1),
           ),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(radius ?? 10),
+          borderRadius: BorderRadius.circular(radius ?? 16),
           borderSide: BorderSide(
             color: borderColor ?? const Color.fromRGBO(208, 208, 208, 1),
           ),
         ),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(radius ?? 10),
+          borderRadius: BorderRadius.circular(radius ?? 16),
           borderSide: BorderSide(
             color: borderColor ?? const Color.fromRGBO(208, 208, 208, 1),
           ),
@@ -83,7 +83,7 @@ class CustomTextFormField extends StatelessWidget {
         hintText: hintText,
         hintStyle: TextStyle(
           fontSize: 14,
-          color: hintColor ?? const Color.fromRGBO(150, 150, 150, 1),
+          color: hintColor ?? AppColors.greyColor2,
         ),
       ),
     );

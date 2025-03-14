@@ -3,6 +3,22 @@ abstract class LocaleKeys {
   static const joinUs = "joinUs";
   static const  login = 'login';
   static const  register = 'register';
+  static const  welcome = 'welcome';
+  static const  back = 'back';
+  static const  loginDesText = 'loginDesText';
+  static const  userName = 'userName';
+  static const  password = 'password';
+  static const nameValidate = "nameValidate";
+  static const messageValidate = "messageValidate";
+  static const emailValidate = "emailValidate";
+  static const emailValidate2 = "emailValidate2";
+  static const passwordValidate = "passwordValidate";
+  static const passwordValidate2 = "passwordValidate2";
+  static const phoneValidate = "phoneValidate";
+  static const phoneValidate2 = "phoneValidate2";
+  static const phoneValidate3 = "phoneValidate3";
+  static const forgetPassword = "forgetPassword";
+  static const haveAnAccount = "haveAnAccount";
 
 
 
@@ -109,7 +125,6 @@ abstract class LocaleKeys {
   static const  loginMsg2 = 'loginMsg2';
   static const  register2 = 'register2';
   static const  confirmPassword = 'confirmPassword';
-  static const  password = 'password';
   static const  email = 'email';
   static const  name = 'name';
   static const  confirmEmail = 'confirmEmail';
@@ -128,7 +143,6 @@ abstract class LocaleKeys {
   static const  paymentMethods = 'paymentMethods';
   static const  numbersConversionInfo = 'numbersConversionInfo';
   static const  numberCopied = 'numberCopied';
-  static const  back = 'back';
   static const  sendReceiptPicture = 'sendReceiptPicture';
   static const uploadImageFromCamera = "uploadImageFromCamera";
   static const uploadImageFromGallery = "uploadImageFromGallery";
@@ -167,15 +181,11 @@ abstract class LocaleKeys {
   static const joinNow = 'joinNow';
   static const bestView = 'bestView';
   static const memberFrom = 'memberFrom';
-  static const messageValidate = "messageValidate";
-  static const nameValidate = "nameValidate";
-  static const passwordValidate = "passwordValidate";
-  static const passwordValidate2 = "passwordValidate2";
-  static const emailValidate = "emailValidate";
-  static const emailValidate2 = "emailValidate2";
-  static const phoneValidate = "phoneValidate";
-  static const phoneValidate2 = "phoneValidate2";
-  static const phoneValidate3 = "phoneValidate3";
+
+
+
+
+
   static const goBackExit = "goBackExit";
   static const allProducts = "allProducts";
   static const sellerData = "sellerData";
