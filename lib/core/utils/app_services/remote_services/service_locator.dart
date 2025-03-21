@@ -4,6 +4,7 @@ import 'package:get_it/get_it.dart';
 import 'package:workify_user/features/login/data/repos/login_repos_imple.dart';
 
  import '../../../../features/register/data/register_repos/register_repos_imple.dart';
+import '../../../../features/selectAge/data/repos/select_age_repos_imple.dart';
 import 'api_service.dart';
 //dependency Injection
 
@@ -17,6 +18,10 @@ void setup() {
   getIt.registerSingleton<RegisterRepoImpl>(RegisterRepoImpl(
     getIt.get<ApiService>(),
   ));
+  getIt.registerSingleton<SelectAgeRepoImpl>(SelectAgeRepoImpl(
+    getIt.get<ApiService>(),
+  ));
+
   // getIt.registerSingleton<AllCategoriesRepoImpl>(AllCategoriesRepoImpl(
   //   getIt.get<ApiService>(),
   // ));

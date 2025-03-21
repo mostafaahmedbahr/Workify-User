@@ -33,6 +33,8 @@ abstract class LocaleKeys {
   static const  confirmYourPhoneNumber = 'confirmYourPhoneNumber';
   static const  sendVerificationCode = 'sendVerificationCode';
   static const  resendCode = 'resendCode';
+  static const  yourAge = 'yourAge';
+  static const next = "next";
 
 
   /////////////////
@@ -47,7 +49,6 @@ abstract class LocaleKeys {
   static const appName = "appName";
   static const writeYourPhoneNumberHere = "writeYourPhoneNumberHere";
   static const uploadImages = "uploadImages";
-  static const next = "next";
   static const acceptable = "acceptable";
   static const both = "both";
 

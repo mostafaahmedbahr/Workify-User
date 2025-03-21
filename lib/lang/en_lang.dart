@@ -15,6 +15,7 @@ class EnLang
     "phoneValidate2" : "phone number must be at least 11 numbers long",
     "phoneValidate3": "phone number must be start with 01",
     "emailValidate" : "Please Enter Your Email",
+    "email" : "Email",
     "emailValidate2" : "Please enter a valid email address",
     "passwordValidate" : "Please Enter Your Password",
     "passwordValidate2" : "'Password must be at least 8 characters long",
@@ -34,6 +35,8 @@ class EnLang
     "confirmYourPhoneNumber" : "Confirm your phone number",
     "sendVerificationCode" : "We’ve send you the verification code on",
     "resendCode" : "Re-send code in",
+    "yourAge" : "Your Age",
+    "next" : "Next",
 
 
 

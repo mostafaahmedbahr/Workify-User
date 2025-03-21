@@ -2,11 +2,13 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:workify_user/features/register/presentation/view_model/register_cubit.dart';
+import 'package:workify_user/features/selectAge/presentation/view_model/select_age_cubit.dart';
 
 import 'core/utils/app_services/remote_services/service_locator.dart';
 import 'features/login/data/repos/login_repos_imple.dart';
 import 'features/login/presentation/view_model/login_cubit.dart';
 import 'features/register/data/register_repos/register_repos_imple.dart';
+import 'features/selectAge/data/repos/select_age_repos_imple.dart';
 import 'features/splash/presentation/views/splash_view.dart';
 import 'main_importants.dart';
 
@@ -42,6 +44,7 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(create: (context) => LoginCubit (getIt.get<LoginRepoImpl>()) ),
         BlocProvider(create: (context) => RegisterCubit (getIt.get<RegisterRepoImpl>()) ),
+        BlocProvider(create: (context) => SelectAgeCubit (getIt.get<SelectAgeRepoImpl>()) ),
       ],
       child: MaterialApp(
         localizationsDelegates: context.localizationDelegates,
