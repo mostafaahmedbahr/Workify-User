@@ -28,6 +28,11 @@ abstract class LocaleKeys {
   static const  country = 'country';
   static const  city = 'city';
   static const  confirmPassword = 'confirmPassword';
+  static const  otp = 'otp';
+  static const  verify = 'verify';
+  static const  confirmYourPhoneNumber = 'confirmYourPhoneNumber';
+  static const  sendVerificationCode = 'sendVerificationCode';
+  static const  resendCode = 'resendCode';
 
 
   /////////////////

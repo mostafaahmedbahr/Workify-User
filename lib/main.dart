@@ -51,7 +51,11 @@ class MyApp extends StatelessWidget {
         // title: LocaleKeys.appName.tr(),
         theme: ThemeData(
           scaffoldBackgroundColor: AppColors.offWhiteColor,
-          fontFamily: 'Cairo',
+          appBarTheme: const AppBarTheme(
+            scrolledUnderElevation: 0,
+            backgroundColor: AppColors.offWhiteColor,
+          ),
+          fontFamily: 'Inter',
           primarySwatch: Colors.blue,
         ),
         home:   const SplashView() ,

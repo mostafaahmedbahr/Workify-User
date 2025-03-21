@@ -29,6 +29,11 @@ class EnLang
     "country" : "Country",
     "city" : "City",
     "alreadyHaveAnAccount" : "Already have an account?",
+    "otp" : "Otp",
+    "verify" : "Verify",
+    "confirmYourPhoneNumber" : "Confirm your phone number",
+    "sendVerificationCode" : "We’ve send you the verification code on",
+    "resendCode" : "Re-send code in",
 
 
 

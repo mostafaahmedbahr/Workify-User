@@ -12,7 +12,6 @@ class RegisterView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(LocaleKeys.register.tr()),
-        backgroundColor: AppColors.offWhiteColor,
       ),
       body:  const RegisterViewBody() ,
     );
