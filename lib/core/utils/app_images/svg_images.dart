@@ -8,5 +8,6 @@ class SvgImages
   static const String camera = "assets/images/svg/camera.svg";
   static const String profile = "assets/images/svg/profile-circle.svg";
   static const String mobile = "assets/images/svg/mobile.svg";
+  static const String cvImage = "assets/images/svg/cv_image.svg";
 
 }

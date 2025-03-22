@@ -35,6 +35,12 @@ abstract class LocaleKeys {
   static const  resendCode = 'resendCode';
   static const  yourAge = 'yourAge';
   static const next = "next";
+  static const selectYourInteresting = "selectYourInteresting";
+  static const uploadCv = "uploadCv";
+  static const uploadFile = "uploadFile";
+  static const finish = "finish";
+  static const uploadYourCvMsg1 = "uploadYourCvMsg1";
+  static const uploadYourCvMsg2 = "uploadYourCvMsg2";
 
 
   /////////////////

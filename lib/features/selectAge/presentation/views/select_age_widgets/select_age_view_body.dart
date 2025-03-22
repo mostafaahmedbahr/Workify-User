@@ -1,7 +1,7 @@
  import 'package:flutter/material.dart';
 import 'package:workify_user/core/shared_widgets/custom_sized_box.dart';
 
-import '_next_button.dart';
+import 'next_button.dart';
 import 'number_picker_widget.dart';
 
 class SelectAgeViewBody extends StatelessWidget {

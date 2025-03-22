@@ -13,6 +13,13 @@ class AppStyles
 
   );
 
+  static const textStyle16W500Green = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 16,
+      color: AppColors.mainGreenColor
+
+  );
+
 
   static const textStyle16W500White = TextStyle(
       fontWeight: FontWeight.w500,
@@ -21,7 +28,21 @@ class AppStyles
 
   );
 
-  static const textStyle36W600White = TextStyle(
+  static const textStyle16W500Gray3 = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 16,
+      color: AppColors.greyColor3
+
+  );
+
+  static const textStyle16W500Black = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 16,
+      color: AppColors.blackColor
+
+  );
+
+  static const textStyle36W600Green = TextStyle(
       fontWeight: FontWeight.w600,
       fontSize: 36,
       color: AppColors.mainGreenColor
@@ -57,12 +78,7 @@ class AppStyles
 
   );
 
-  static const textStyle16W500Black = TextStyle(
-      fontWeight: FontWeight.w500,
-      fontSize: 16,
-      color: AppColors.blackColor
 
-  );
 
   static const textStyle24W600Black = TextStyle(
       fontWeight: FontWeight.w600,

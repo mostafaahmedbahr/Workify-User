@@ -37,6 +37,12 @@ class EnLang
     "resendCode" : "Re-send code in",
     "yourAge" : "Your Age",
     "next" : "Next",
+    "selectYourInteresting" : "Select your interesting",
+    "uploadCv" : "Upload Cv",
+    "finish" : "Finish",
+    "uploadYourCvMsg1" : "Upload your Cv",
+    "uploadYourCvMsg2" : "Format: pdf, docx, doc & Max file size: 25 MB",
+    "uploadFile" : "Upload File",
 
 
 

@@ -15,9 +15,9 @@ class LoginTexts extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         CustomText(text: LocaleKeys.welcome.tr(),
-        style: AppStyles.textStyle36W600White,),
+        style: AppStyles.textStyle36W600Green,),
         CustomText(text: LocaleKeys.back.tr(),
-          style: AppStyles.textStyle36W600White.copyWith(
+          style: AppStyles.textStyle36W600Green.copyWith(
             color: AppColors.blackColor,
           ),),
         const CustomSizedBox(height: 12,),
