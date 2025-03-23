@@ -43,6 +43,11 @@ class EnLang
     "uploadYourCvMsg1" : "Upload your Cv",
     "uploadYourCvMsg2" : "Format: pdf, docx, doc & Max file size: 25 MB",
     "uploadFile" : "Upload File",
+  'home' : "Home",
+  'community' : "Community",
+  'applied' : "Applied",
+  'calendar' : "Calendar",
+  'profile' : "Profile",
 
 
 

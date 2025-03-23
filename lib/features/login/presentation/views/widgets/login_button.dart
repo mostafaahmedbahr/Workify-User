@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 
 import '../../../../../main_importants.dart';
+import '../../../../layout/presentation/views/layout_view.dart';
 
 class LoginButton extends StatelessWidget {
   const LoginButton({super.key});
@@ -11,9 +12,9 @@ class LoginButton extends StatelessWidget {
       btnText: Text(LocaleKeys.login.tr(),
         style: AppStyles.textStyle16W500White,),
       onPressed: (){
-        // AppNav.customNavigator(context: context,
-        //   screen: const LoginView(),
-        // );
+        AppNav.customNavigator(context: context,
+          screen: const LayoutView(),
+        );
       },
     );
   }

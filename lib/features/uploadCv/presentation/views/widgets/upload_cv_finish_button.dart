@@ -1,6 +1,7 @@
  import 'package:easy_localization/easy_localization.dart';
 
 import '../../../../../main_importants.dart';
+import '../../../../layout/presentation/views/layout_view.dart';
 
 class UploadCvFinishButton extends StatelessWidget {
   const UploadCvFinishButton({super.key});
@@ -11,9 +12,9 @@ class UploadCvFinishButton extends StatelessWidget {
       btnText: Text(LocaleKeys.finish.tr(),
         style: AppStyles.textStyle16W500White,),
       onPressed: (){
-        // AppNav.customNavigator(context: context,
-        //   screen: const UploadCvView(),
-        // );
+        AppNav.customNavigator(context: context,
+          screen: const LayoutView(),
+        );
       },
     );
   }

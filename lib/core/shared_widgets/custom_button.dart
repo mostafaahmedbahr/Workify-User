@@ -31,6 +31,7 @@ class CustomButton extends StatelessWidget {
               )
           ),
           backgroundColor: btnColor ?? AppColors.mainGreenColor,
+            foregroundColor : AppColors.mainGreenColor,
         ),
         child:  btnText,
       ),

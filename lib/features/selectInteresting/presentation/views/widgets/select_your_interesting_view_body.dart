@@ -17,6 +17,7 @@ class SelectYourInterestingViewBody extends StatelessWidget {
           CustomSizedBox(height: 20,),
           JobsList(),
           InterestingNextButton(),
+          CustomSizedBox(height: 40,),
         ],
       ),
     );

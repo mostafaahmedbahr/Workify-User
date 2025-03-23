@@ -41,7 +41,11 @@ abstract class LocaleKeys {
   static const finish = "finish";
   static const uploadYourCvMsg1 = "uploadYourCvMsg1";
   static const uploadYourCvMsg2 = "uploadYourCvMsg2";
-
+  static const  home =      'home';
+  static const  community = 'community';
+  static const  applied =   'applied';
+  static const  calendar =  'calendar';
+  static const  profile =   'profile';
 
   /////////////////
 
@@ -161,7 +165,6 @@ abstract class LocaleKeys {
   static const  selectGovernorate = 'selectGovernorate';
   static const  center = 'center';
 
-  static const  home = 'home';
   static const  ads = 'ads';
   static const  deliveryTo = 'deliveryTo';
   static const  paymentMethods = 'paymentMethods';
