@@ -14,5 +14,8 @@ class SvgImages
   static const String applied = "assets/images/svg/briefcase.svg";
   static const String calendar = "assets/images/svg/calendar.svg";
   static const String profile = "assets/images/svg/profile.svg";
+  static const String notify = "assets/images/svg/notify.svg";
+  static const String search = "assets/images/svg/search-normal.svg";
+  static const String noNotifications = "assets/images/svg/Validation.svg";
 
 }

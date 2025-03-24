@@ -48,6 +48,9 @@ class EnLang
   'applied' : "Applied",
   'calendar' : "Calendar",
   'profile' : "Profile",
+  'search' : "Search",
+  'notifications' : "Notifications",
+  'noNotificationsYet' : "No Notifications Yet",
 
 
 

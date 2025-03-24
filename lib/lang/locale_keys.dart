@@ -46,6 +46,14 @@ abstract class LocaleKeys {
   static const  applied =   'applied';
   static const  calendar =  'calendar';
   static const  profile =   'profile';
+  static const search = "search";
+  static const notifications = "notifications";
+  static const noNotificationsYet = "noNotificationsYet";
+
+
+
+
+
 
   /////////////////
 
@@ -91,7 +99,6 @@ abstract class LocaleKeys {
   static const productsShow = "productsShow";
   static const intrestedPeople = "intrestedPeople";
   static const to = "to";
-  static const search = "search";
   static const priceFrom = "priceFrom";
   static const chooseProductStatus = "chooseProductStatus";
   static const chooseShippingType = "chooseShippingType";
@@ -121,7 +128,6 @@ abstract class LocaleKeys {
   static const blockPhoneNumber = "blockPhoneNumber";
   static const deleteAccount = "deleteAccount";
   static const deleteAccountAndStopAds = "deleteAccountAndStopAds";
-  static const notifications = "notifications";
   static const disableNotifications = "disableNotifications";
   static const enableNotifications = "enableNotifications";
   static const cancellation = "cancellation";

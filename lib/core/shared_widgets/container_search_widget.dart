@@ -1,4 +1,6 @@
 
+import 'package:easy_localization/easy_localization.dart';
+
 import '../../main_importants.dart';
 
 class ContainerSearchWidget extends StatelessWidget {
@@ -12,10 +14,10 @@ class ContainerSearchWidget extends StatelessWidget {
         //LayoutCubit.get(context).changeBottomNav(LayoutCubit.pageIndex=2);
       },
       keyboardType: TextInputType.text,
-      hintText:  "context.tr(LocaleKeys.searchWithBy3ly)",
+      hintText:  context.tr(LocaleKeys.search),
       prefixIcon: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: SvgPicture.asset("AppImages.search"),
+        padding: const EdgeInsets.all(14.0),
+        child: SvgPicture.asset(SvgImages.search,),
       ),
     );
   }

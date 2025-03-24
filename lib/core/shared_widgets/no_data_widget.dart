@@ -22,8 +22,8 @@ class NoDataWidget extends StatelessWidget {
           Text(text,
           style: const TextStyle(
             fontWeight: FontWeight.w600,
-            color: AppColors.mainGreenColor,
-            fontSize: 24,
+            color: AppColors.greyColor4,
+            fontSize: 16,
           ),),
         ],
       ),
