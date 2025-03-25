@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:workify_user/core/shared_widgets/custom_sized_box.dart';
-import 'package:workify_user/features/profile/presentation/views/widgets/complete_download_edit_cv.dart';
+ import 'package:workify_user/core/shared_widgets/custom_sized_box.dart';
+ import 'package:workify_user/features/profile/presentation/views/widgets/complete_download_edit_cv.dart';
+import 'package:workify_user/features/profile/presentation/views/widgets/list_tile_list.dart';
 import 'package:workify_user/features/profile/presentation/views/widgets/logout_and_lang.dart';
 import 'package:workify_user/features/profile/presentation/views/widgets/profile_data_name_bio_image.dart';
 
@@ -9,9 +10,9 @@ class ProfileView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return   const Scaffold(
       body: Padding(
-        padding: EdgeInsets.symmetric(vertical: 60),
+        padding: EdgeInsets.symmetric(vertical: 50),
         child: Column(
           children: [
             LogoutAndLang(),
@@ -19,6 +20,8 @@ class ProfileView extends StatelessWidget {
             ProfileDataNameBioImage(),
             CustomSizedBox(height: 20,),
             CompleteDownloadEditCv(),
+            CustomSizedBox(height: 25,),
+            ListTileList(),
           ],
         ),
       ),

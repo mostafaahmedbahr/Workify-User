@@ -99,6 +99,21 @@ class AppStyles
       color: AppColors.blackColor
 
   );
+
+  static const textStyle10W500White = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 10,
+      color: AppColors.whiteColor
+
+  );
+
+  static const textStyle10W500Black = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 10,
+      color: AppColors.blackColor
+
+  );
+
   //////////////////
 
 
@@ -149,12 +164,7 @@ class AppStyles
 
   );
 
-  static const textStyle10W500White = TextStyle(
-      fontWeight: FontWeight.w500,
-      fontSize: 10,
-      color: AppColors.whiteColor
 
-  );
 
 
   static const textStyle16W600Black = TextStyle(

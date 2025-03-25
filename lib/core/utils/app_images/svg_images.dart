@@ -20,6 +20,14 @@ class SvgImages
   static const String logout = "assets/images/svg/logout.svg";
   static const String download = "assets/images/svg/receive-square.svg";
   static const String userOctagon = "assets/images/svg/user-octagon.svg";
+  static const String editProfile = "assets/images/svg/user-edit.svg";
+  static const String arrow = "assets/images/svg/arrow.svg";
+  static const String savedJobs = "assets/images/svg/archive.svg";
+  static const String myReviews = "assets/images/svg/like-shapes.svg";
+  static const String support = "assets/images/svg/support.svg";
+  static const String location = "assets/images/svg/location.svg";
+  static const String savedJobs2 = "assets/images/svg/archive-tick.svg";
+
 
 
 }

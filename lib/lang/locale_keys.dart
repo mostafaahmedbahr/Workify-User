@@ -57,6 +57,11 @@ abstract class LocaleKeys {
   static const completeMyCV = "completeMyCV";
   static const downloadMyCV = "downloadMyCV";
   static const editMyCV = "editMyCV";
+  static const editPersonalInfo = "editPersonalInfo";
+  static const savedJobs = "savedJobs";
+  static const myReviews = "myReviews";
+  static const changePassword = "changePassword";
+  static const support = "support";
 
 
 

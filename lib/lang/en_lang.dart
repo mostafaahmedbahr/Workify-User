@@ -59,6 +59,11 @@ class EnLang
     "completeMyCV" : "Complete my CV",
     "downloadMyCV" : "Download my CV",
     "editMyCV" : "Edit my CV",
+    "editPersonalInfo" : "Edit Personal Info",
+    "savedJobs" : "Saved Jobs",
+    "myReviews" : "My Reviews",
+    "changePassword" : "Change Password",
+    "support" : "Support",
 
 
 
