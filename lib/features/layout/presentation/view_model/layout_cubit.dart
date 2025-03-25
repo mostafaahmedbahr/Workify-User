@@ -1,6 +1,7 @@
  import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../home/presentation/views/home_view.dart';
+import '../../../profile/presentation/views/profile_view.dart';
 import 'layout_states.dart';
 
 
@@ -16,13 +17,7 @@ class LayoutCubit extends Cubit<LayoutStates> {
     Text("2"),
     Text("3"),
     Text("4"),
-    Text("5"),
-    // const HomeView(),
-    // const NotificationsView(),
-    // const SearchView(),
-    // const AdvertisementsView(),
-    // const ProfileView(),
-
+    ProfileView(),
   ];
 
 

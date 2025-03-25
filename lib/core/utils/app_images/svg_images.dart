@@ -17,5 +17,6 @@ class SvgImages
   static const String notify = "assets/images/svg/notify.svg";
   static const String search = "assets/images/svg/search-normal.svg";
   static const String noNotifications = "assets/images/svg/Validation.svg";
+  static const String logout = "assets/images/svg/logout.svg";
 
 }

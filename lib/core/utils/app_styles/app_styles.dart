@@ -57,6 +57,14 @@ class AppStyles
 
   );
 
+  static const textStyle14W500Red = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 14,
+      color: AppColors.redColor
+
+  );
+
+
   static const textStyle12W500Gray3 = TextStyle(
       fontWeight: FontWeight.w500,
       fontSize: 12,
@@ -133,6 +141,13 @@ class AppStyles
       fontWeight: FontWeight.w600,
       fontSize: 10,
       color: AppColors.blackColor
+
+  );
+
+  static const textStyle10W500White = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 10,
+      color: AppColors.whiteColor
 
   );
 

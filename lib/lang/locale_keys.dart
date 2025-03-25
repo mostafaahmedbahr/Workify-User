@@ -49,6 +49,12 @@ abstract class LocaleKeys {
   static const search = "search";
   static const notifications = "notifications";
   static const noNotificationsYet = "noNotificationsYet";
+  static const logout = "logout";
+  static const english = "english";
+  static const arabic = "arabic";
+  static const completed = "completed";
+  static const cv = "cv";
+
 
 
 

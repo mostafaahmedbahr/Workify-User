@@ -51,6 +51,11 @@ class EnLang
   'search' : "Search",
   'notifications' : "Notifications",
   'noNotificationsYet' : "No Notifications Yet",
+    "logout" : "Logout",
+    "arabic" : "Arabic",
+    "english" : "English",
+    "completed" : "Completed",
+    "cv" : "Cv",
 
 
 
