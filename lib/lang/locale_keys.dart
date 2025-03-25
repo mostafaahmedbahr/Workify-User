@@ -54,6 +54,9 @@ abstract class LocaleKeys {
   static const arabic = "arabic";
   static const completed = "completed";
   static const cv = "cv";
+  static const completeMyCV = "completeMyCV";
+  static const downloadMyCV = "downloadMyCV";
+  static const editMyCV = "editMyCV";
 
 
 

@@ -86,7 +86,12 @@ class AppStyles
 
   );
 
+  static const textStyle14W600Black = TextStyle(
+      fontWeight: FontWeight.w600,
+      fontSize: 14,
+      color: AppColors.blackColor
 
+  );
 
   static const textStyle24W600Black = TextStyle(
       fontWeight: FontWeight.w600,

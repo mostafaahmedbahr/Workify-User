@@ -56,6 +56,9 @@ class EnLang
     "english" : "English",
     "completed" : "Completed",
     "cv" : "Cv",
+    "completeMyCV" : "Complete my CV",
+    "downloadMyCV" : "Download my CV",
+    "editMyCV" : "Edit my CV",
 
 
 

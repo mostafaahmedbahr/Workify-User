@@ -18,5 +18,8 @@ class SvgImages
   static const String search = "assets/images/svg/search-normal.svg";
   static const String noNotifications = "assets/images/svg/Validation.svg";
   static const String logout = "assets/images/svg/logout.svg";
+  static const String download = "assets/images/svg/receive-square.svg";
+  static const String userOctagon = "assets/images/svg/user-octagon.svg";
+
 
 }
